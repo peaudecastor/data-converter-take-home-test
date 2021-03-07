@@ -1,0 +1,35 @@
+
+{
+    "data": [{
+        "injection": { 
+            "findings": [{
+                    "location": "github.com/myorg/a/file.py",
+                    "startLineNumber": "1",
+                    "endLineNumber": "2",
+                    "type": "sql-injection"
+                },
+                {
+                    "location": "githu.com/myorg/a/file.py",
+                    "startLineNumber": "5",
+                    "endLineNumber": "10",
+                    "type": "command-injection"
+                }
+            ]
+        },
+        "bad-crypto": {
+            "findings": [{
+                    "location": "github.com/myorg/a/file.py",
+                    "startLineNumber": "1",
+                    "endLineNumber": "2",
+                    "type": "weak-crypto"
+                },
+                {
+                    "location": "github.com/myorg/c/file.py",
+                    "startLineNumber": "1",
+                    "endLineNumber": "5",
+                    "type": "weak-crypto-2"
+                }
+            ]
+        }
+    }]
+}
