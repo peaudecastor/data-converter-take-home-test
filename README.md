@@ -2,7 +2,7 @@
 
 In this coding assignment, you will be building a command line tool that will fetch a JSON file from the Internet, transform the fields to a particular specification and allow crude filtering of the data.
 
-How to approach this
+## How to approach this
 
 Where the specification is unclear or falls short, you should give reasonable assumptions and design choices, similar to how you would had this been a project you undertook as part of your regular job. When doing this, is it important to thoroughly document your assumptions and design in the README or other relevant documentation artifacts you choose to produce (e.g. code comments or user manual).
 
