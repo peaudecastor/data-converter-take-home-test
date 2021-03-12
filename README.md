@@ -30,6 +30,7 @@ pip3 install -r requirements.txt
 make test
 ```
 
+
 Your program should retrieve a JSON file from the internet with the following structure, where:
 
 1. `data` is an array of objects keyed by `class`
@@ -119,7 +120,13 @@ python cli.py --sourceUrl=https://raw.githubusercontent.com/peaudecastor/data-co
         "type": "weak-crypto-2"
     }
 ]
- ```   
+ ``` 
+ 
+Add some tests
+
+```
+make test # runs test scenarios that accurately test for correctness of your program
+```
 
 
 ## Bonus
